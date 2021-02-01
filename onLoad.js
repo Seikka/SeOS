@@ -14,7 +14,7 @@ YL.onLoad(function () {
     YL.init();
     return;
   } else if (load === YL.static.localStorageName) {
-    file = 'basic';
+    file = 'admin';
   }
   // 从json文件读取
   file = file || load || 'basic';
