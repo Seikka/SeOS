@@ -2,7 +2,7 @@
   "name": "SeOS",
   "main": "index.html",
   "description": "SeOS",
-  "version": "5.8.8",
+  "version": "8.8.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/seikka/SeOS"

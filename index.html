@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <script>
-        window.yluiVersion = '2.1.9';
+        window.yluiVersion = '8.9.0';
         document.write('<link rel="stylesheet" href="./res/css/loading.css?v='+window.yluiVersion+'"/>');
         document.write('<script src="res/yl.js?v='+window.yluiVersion+'"><\/script>');
         document.write('<script src="onLoad.js?v='+window.yluiVersion+'"><\/script>');
@@ -239,9 +239,6 @@
     <div class="bar" @contextMenu="barContextMenu" :style="barStyle" :class="{top:configs.topTaskBar}">
         <div class="mask" :style="{background:configs.themeColor}"></div>
         <div class="mask" :style="{background:'rgba(0,0,0,0.18)'}"></div>
-        <div class="mask powered-by" :class="{fade: runtime.winOpened}" >
-            欢迎使用SeOS v{{YL.info.version}}
-        </div>
         <!--开始按钮-->
         <div class="btn shadow-hover fa fa-fw"
              style="width: 36px;"

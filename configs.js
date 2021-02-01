@@ -1,11 +1,11 @@
 YL.static = {
   /** “关于”信息 */
   softwareName: 'Se OS', //网站名。请在此处填写您自己的网站名，如王小明的博客。
-  version: "5.8.8", // 网站版本号
-  iconBtnStart: 'html5', //主图标
+  version: "8.8.8", // 网站版本号
+  iconBtnStart: 'scribd', //主图标
   author: 'Seikka',//作者
   contactInformation: 'seikka@seikka.xyz',//联系方式
-  officialWebsite: '//https://seikka.52msr.cn',//软件官网
+  officialWebsite: '//seikka.52msr.cn',//软件官网
   welcome: 'Power by Seikka\n详细信息：//seikka.52msr.cn',//加载完毕控制台提示信息
   copyrightDetail: 'Seikka',//版权详细信息
   otherStatements: '',//其他信息（可留空）
@@ -26,6 +26,6 @@ YL.static = {
   /**————————————————————————————————————————————————————————————————————————————————————————————*/
   /** SeOS注册信息 */
   authorization: '测试版',//授权类型
-  serialNumber: 8888 - 8888 - 8888,//序列号
+  serialNumber: 8-8-8-8,//序列号
 
 };
