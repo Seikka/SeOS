@@ -254,7 +254,7 @@
             "icon": {
                 "type": "fa",
                 "content": "cloud",
-                "bg": "#fff"
+                "bg": "#000"
             },
             "openMode": "normal",
             "plugin": false,
