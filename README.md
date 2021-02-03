@@ -1,7 +1,7 @@
-# YLUI
+# SeOS
 ![1.png](https://s2.ax1x.com/2019/01/31/k1MVLd.png)
 
-YLUI是一款纯前端框架，是对WEB桌面UI的一个大胆尝试。
+SeOS是一款纯前端框架，是对WEB桌面UI的一个大胆尝试。
 
 它凝聚了作者近一年的心血，作为[WIN10UI](http://win10ui.yuri2.cn)开源项目的升级版，承载了作者对WEB桌面设计风格的追求。
 
@@ -61,4 +61,4 @@ npm start
 
 ### 相关链接
 
-[YLUI官网](https://ylui.yuri2.cn) | [GITHUB](https://github.com/yuri2peter/ylui) | [码外社区](http://www.bycodes.net/) | [官方交流群](https://jq.qq.com/?_wv=1027&k=5fAsios)
+[SeOS官网](https://se.52msr.cn) | [GITHUB](https://github.com/seikka/seos) | [码外社区](http://www.bycodes.net/) | [官方交流群](https://jq.qq.com/?_wv=1027&k=5fAsios)

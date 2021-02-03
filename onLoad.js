@@ -24,7 +24,7 @@ YL.onLoad(function () {
       var data = JSON.parse(text);
       YL.init(data);
     } else {
-      alert('Se OS读取配置错误，初始化失败');
+      alert('Se OS用户名或密码错误，初始化失败');
     }
   });
 });
