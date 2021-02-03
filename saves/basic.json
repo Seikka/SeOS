@@ -253,8 +253,8 @@
             "desc": "登录",
             "icon": {
                 "type": "fa",
-                "content": "could",
-                "bg": "#000"
+                "content": "cloud",
+                "bg": "#fff"
             },
             "openMode": "normal",
             "plugin": false,
