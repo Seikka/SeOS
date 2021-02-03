@@ -245,6 +245,39 @@
             "customTile": "",
             "urlRandomToken": true
         },
+        "sign": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "登录",
+            "icon": {
+                "type": "fa",
+                "content": "could",
+                "bg": "#fff"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "2.3.3",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "登录",
+            "url": "//os.52msr.cn/sign/index.html",
+            "customTile": "",
+            "urlRandomToken": false
+        },
         "app-home": {
             "addressBar": false,
             "autoRun": 0,
@@ -464,6 +497,12 @@
             "hash": ""
         },
         {
+            "app": "sign",
+            "title": "登录",
+            "params": {},
+            "hash": ""
+        },
+        {
             "app": "app-home",
             "title": "SeOS 官网",
             "params": {},
@@ -529,6 +568,17 @@
                     "y": 0,
                     "w": 6,
                     "h": 4,
+                    "app": "sign",
+                    "title": "登录",
+                    "i": "188",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 6,
+                    "h": 4,
                     "app": "app-home",
                     "title": "SeOS 官网",
                     "i": "147",
@@ -573,7 +623,7 @@
             },
             "itemPushed-89": {
                 "app": "app-home",
-                "title": "YLUI 官网",
+                "title": "SeOS 官网",
                 "params": {},
                 "hash": ""
             },
