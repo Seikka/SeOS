@@ -10,8 +10,8 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 172,
-        "themeColor": "rgba(24,28,71,1)",
+        "idCounter": 173,
+        "themeColor": "rgba(96,90,100,1)",
         "autoThemeColor": true,
         "wallpapers": [
             {
@@ -475,6 +475,39 @@
             "url": "https://imgchr.com/",
             "customTile": "",
             "urlRandomToken": true
+        },
+        "bangdream": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "模拟器",
+            "icon": {
+                "type": "img",
+                "content": "/res/img/icon/bangdream.jpg",
+                "bg": "fff"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.5"
+            },
+            "title": "邦邦模拟器",
+            "url": "//bd.52msr.cn",
+            "customTile": "",
+            "urlRandomToken": true
         }
     },
     "shortcuts": [
@@ -524,6 +557,12 @@
                     "hash": ""
                 }
             ]
+        },
+        {
+            "app": "bangdream",
+            "title": "邦邦模拟器",
+            "params": {},
+            "hash": ""
         }
     ],
     "tiles": [
