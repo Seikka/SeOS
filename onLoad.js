@@ -18,7 +18,7 @@ YL.onLoad(function () {
   }
   // 从json文件读取
   file = file || load || 'basic';
-  var save = /^\w+$/.test(file) ? 'https://load.vercel.app/' + file + '.json' : file;
+  var save = /^\w+$/.test(file) ? '//lo.52msr.cn/' + file + '.json' : file;
   Yuri2.loadContentFromUrl(save, 'GET', function (err, text) {
     if (!err) {
       var data = JSON.parse(text);
