@@ -11,7 +11,7 @@
         "wallpaperSlideIndex": 8,
         "openMax": 9,
         "idCounter": 172,
-        "themeColor": "rgba(2,35,64,1)",
+        "themeColor": "rgba(24,28,71,1)",
         "autoThemeColor": true,
         "wallpapers": [
             {
@@ -286,7 +286,7 @@
             "desc": "SeOS官方网站",
             "icon": {
                 "type": "fa",
-                "content": "yoast",
+                "content": "scribd",
                 "bg": "#6b96cf"
             },
             "openMode": "normal",
@@ -319,7 +319,7 @@
             "desc": "SeOS 后台服务",
             "icon": {
                 "type": "fa",
-                "content": "yoast",
+                "content": "scribd",
                 "bg": "#6b96cf"
             },
             "openMode": "min",
@@ -532,7 +532,7 @@
             "data": [
                 {
                     "x": 0,
-                    "y": 6,
+                    "y": 10,
                     "w": 2,
                     "h": 2,
                     "app": "se-store",
@@ -543,7 +543,7 @@
                 },
                 {
                     "x": 0,
-                    "y": 4,
+                    "y": 8,
                     "w": 4,
                     "h": 2,
                     "app": "system",
@@ -554,7 +554,7 @@
                 },
                 {
                     "x": 4,
-                    "y": 4,
+                    "y": 8,
                     "w": 2,
                     "h": 2,
                     "app": "browser",
@@ -565,7 +565,7 @@
                 },
                 {
                     "x": 0,
-                    "y": 0,
+                    "y": 4,
                     "w": 6,
                     "h": 4,
                     "app": "sign",
@@ -587,7 +587,7 @@
                 },
                 {
                     "x": 2,
-                    "y": 6,
+                    "y": 10,
                     "w": 4,
                     "h": 2,
                     "app": "documents",
