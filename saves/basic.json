@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/1.jpg",
+        "wallpaper": "./res/img/wallpapers/bg1.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -485,7 +485,7 @@
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "模拟器",
+            "desc": "BanGDream",
             "icon": {
                 "type": "img",
                 "content": "/res/img/icon/bangdream.jpg",
@@ -508,7 +508,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "BanGDream!",
+            "title": "BanGD!",
             "url": "//bd.52msr.cn",
             "customTile": "",
             "urlRandomToken": true
@@ -564,7 +564,7 @@
         },
         {
             "app": "bangdream",
-            "title": "BanGDream!",
+            "title": "BanGD!",
             "params": {},
             "hash": ""
         }
