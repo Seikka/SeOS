@@ -11,11 +11,15 @@
         "wallpaperSlideIndex": 8,
         "openMax": 9,
         "idCounter": 173,
-        "themeColor": "rgba(96,90,100,1)",
+        "themeColor": "#388fff",
         "autoThemeColor": true,
         "wallpapers": [
             {
                 "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+            },
+            {
+                "image": "./res/img/wallpapers/roselia.jpg",
+                "preview": "./res/img/wallpapers/roselia.jpg"
             },
             {
                 "image": "./res/img/wallpapers/bg1.jpg",
@@ -245,12 +249,12 @@
             "customTile": "",
             "urlRandomToken": true
         },
-        "sign": {
+        "login": {
             "addressBar": false,
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "登录",
+            "desc": "登录SeOS",
             "icon": {
                 "type": "fa",
                 "content": "cloud",
@@ -273,8 +277,8 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "登录",
-            "url": "//os.52msr.cn/sign/index.html",
+            "title": "登录SeOS",
+            "url": "//os.52msr.cn/login/index.html",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -485,7 +489,7 @@
             "icon": {
                 "type": "img",
                 "content": "/res/img/icon/bangdream.jpg",
-                "bg": "fff"
+                "bg": "fff0"
             },
             "openMode": "normal",
             "plugin": false,
@@ -504,7 +508,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "邦邦模拟器",
+            "title": "BanGDream!",
             "url": "//bd.52msr.cn",
             "customTile": "",
             "urlRandomToken": true
@@ -530,8 +534,8 @@
             "hash": ""
         },
         {
-            "app": "sign",
-            "title": "登录",
+            "app": "login",
+            "title": "登录SeOS",
             "params": {},
             "hash": ""
         },
@@ -560,7 +564,7 @@
         },
         {
             "app": "bangdream",
-            "title": "邦邦模拟器",
+            "title": "BanGDream!",
             "params": {},
             "hash": ""
         }
@@ -607,8 +611,8 @@
                     "y": 4,
                     "w": 6,
                     "h": 4,
-                    "app": "sign",
-                    "title": "登录",
+                    "app": "login",
+                    "title": "登录SeOS",
                     "i": "188",
                     "params": {},
                     "hash": ""

@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/bg2.jpg",
+        "wallpaper": "./res/img/wallpapers/2.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -10,12 +10,16 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 172,
-        "themeColor": "rgba(24,28,71,1)",
+        "idCounter": 173,
+        "themeColor": "#388fff",
         "autoThemeColor": true,
         "wallpapers": [
             {
                 "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+            },
+            {
+                "image": "./res/img/wallpapers/roselia.jpg",
+                "preview": "./res/img/wallpapers/roselia.jpg"
             },
             {
                 "image": "./res/img/wallpapers/bg1.jpg",
@@ -245,12 +249,12 @@
             "customTile": "",
             "urlRandomToken": true
         },
-        "sign": {
+        "login": {
             "addressBar": false,
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "登录",
+            "desc": "登录SeOS",
             "icon": {
                 "type": "fa",
                 "content": "cloud",
@@ -273,8 +277,8 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "登录",
-            "url": "//os.52msr.cn/sign/index.html",
+            "title": "登录SeOS",
+            "url": "//os.52msr.cn/login/index.html",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -475,6 +479,39 @@
             "url": "https://imgchr.com/",
             "customTile": "",
             "urlRandomToken": true
+        },
+        "bangdream": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "模拟器",
+            "icon": {
+                "type": "img",
+                "content": "/res/img/icon/bangdream.jpg",
+                "bg": "fff0"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "BanGDream!",
+            "url": "//bd.52msr.cn",
+            "customTile": "",
+            "urlRandomToken": true
         }
     },
     "shortcuts": [
@@ -497,8 +534,8 @@
             "hash": ""
         },
         {
-            "app": "sign",
-            "title": "登录",
+            "app": "login",
+            "title": "登录SeOS",
             "params": {},
             "hash": ""
         },
@@ -524,6 +561,12 @@
                     "hash": ""
                 }
             ]
+        },
+        {
+            "app": "bangdream",
+            "title": "BanGDream!",
+            "params": {},
+            "hash": ""
         }
     ],
     "tiles": [
@@ -568,8 +611,8 @@
                     "y": 4,
                     "w": 6,
                     "h": 4,
-                    "app": "sign",
-                    "title": "登录",
+                    "app": "login",
+                    "title": "登录SeOS",
                     "i": "188",
                     "params": {},
                     "hash": ""
