@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/bg2.jpg",
+        "wallpaper": "./res/img/wallpapers/bg1.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -278,7 +278,7 @@
                 "width": "x*0.8"
             },
             "title": "登录SeOS",
-            "url": "//os.52msr.cn/login/index.html",
+            "url": "//os.52msr.cn/index.html",
             "customTile": "",
             "urlRandomToken": false
         },

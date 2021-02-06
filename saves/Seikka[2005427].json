@@ -278,7 +278,7 @@
                 "width": "x*0.8"
             },
             "title": "登录SeOS",
-            "url": "//os.52msr.cn/login/index.html",
+            "url": "//os.52msr.cn/index.html",
             "customTile": "",
             "urlRandomToken": false
         },
