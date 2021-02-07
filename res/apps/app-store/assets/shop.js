@@ -78,7 +78,7 @@ YLApp.onReady(function () {
       desc: '在线PS',
       open: _.merge(getAppDataTemplate(), {
         title: 'PhotoShop',
-        url: 'https://www.jq22.com/demo/jqueryps202002072229/index.html',
+        url: '/apps/ps/logo.ico',
         "icon": {
           "type": "img",
           "content": "//www.jq22.com/demo/jqueryps202002072229/favicon.ico",
@@ -92,7 +92,7 @@ YLApp.onReady(function () {
             url: 'https://www.jq22.com/demo/jqueryps202002072229/index.html',
             "icon": {
               "type": "img",
-              "content": "//www.jq22.com/demo/jqueryps202002072229/favicon.ico",
+              "content": "/apps/ps/logo.ico",
               "bg": "#fff0"
             },
             desc: '在线PS',

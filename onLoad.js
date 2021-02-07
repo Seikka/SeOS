@@ -6,7 +6,7 @@
  */
 
 YL.onLoad(function () {
-  // 读取url中load参数，如localhost/ylui/index.html?load=basic
+  // 读取url中load参数，如localhost/ylui/index.html?load=_
   var load = Yuri2.parseURL().params.load;
   var file;
   // 当load === 'ylui-storage'时，尝试加载浏览器缓存
@@ -17,7 +17,7 @@ YL.onLoad(function () {
     file = 'local';
   }
   // 从json文件读取
-  file = file || load || 'basic';
+  file = file || load || '_';
   var save = /^\w+$/.test(file) ? './saves/' + file + '.json' : file;
   Yuri2.loadContentFromUrl(save, 'GET', function (err, text) {
     if (!err) {
