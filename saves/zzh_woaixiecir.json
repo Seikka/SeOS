@@ -1,0 +1,699 @@
+{
+    "configs": {
+        "topTaskBar": false,
+        "sound": false,
+        "wallpaper": "./res/img/wallpapers/zzh.jpg",
+        "wallpaperBlur": false,
+        "wallpaperSlide": false,
+        "wallpaperSlideRandom": true,
+        "wallpaperSlideItv": 1,
+        "wallpaperSlideTime": 1519442460788,
+        "wallpaperSlideIndex": 8,
+        "openMax": 9,
+        "idCounter": 173,
+        "themeColor": "#388fff",
+        "autoThemeColor": true,
+        "wallpapers": [
+            {
+                "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+            },
+            {
+                "image": "./res/img/wallpapers/roselia.jpg",
+                "preview": "./res/img/wallpapers/roselia.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg1.jpg",
+                "preview": "./res/img/wallpapers/bg1_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg2.jpg",
+                "preview": "./res/img/wallpapers/bg2_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg3.jpg",
+                "preview": "./res/img/wallpapers/bg3_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg4.jpg",
+                "preview": "./res/img/wallpapers/bg4_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg5.jpg",
+                "preview": "./res/img/wallpapers/bg5_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg6.jpg",
+                "preview": "./res/img/wallpapers/bg6_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg7.jpg",
+                "preview": "./res/img/wallpapers/bg7_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg8.jpg",
+                "preview": "./res/img/wallpapers/bg8_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg9.jpg",
+                "preview": "./res/img/wallpapers/bg9_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg10.jpg",
+                "preview": "./res/img/wallpapers/bg10_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg11.jpg",
+                "preview": "./res/img/wallpapers/bg11_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg12.jpg",
+                "preview": "./res/img/wallpapers/bg12_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg13.jpg",
+                "preview": "./res/img/wallpapers/bg13_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg14.jpg",
+                "preview": "./res/img/wallpapers/bg14_1.jpg"
+            }
+        ],
+        "pathRes": "./res",
+        "shortcutsSortAuto": true,
+        "debug": false,
+        "winBlur": true
+    },
+    "apps": {
+        "system": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "系统设置",
+            "icon": {
+                "type": "fa",
+                "bg": "#436fde",
+                "content": "gear"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "x": "x*0.05",
+                "y": "y*0.05",
+                "left": true,
+                "top": true,
+                "autoOffset": true
+            },
+            "version": "1.0.0",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "width": "920",
+                "height": "590"
+            },
+            "title": "系统设置",
+            "url": "./res/apps/yl-system/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "color-picker": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "简单取色器",
+            "icon": {
+                "type": "fa",
+                "bg": "#3289c7",
+                "content": "eyedropper"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "x": "(x-207)/2",
+                "y": "(y-239)/2",
+                "left": true,
+                "top": true,
+                "autoOffset": false
+            },
+            "version": "1.0.0",
+            "poweredBy": "Seikka",
+            "resizable": false,
+            "single": true,
+            "size": {
+                "width": "207",
+                "height": "239"
+            },
+            "title": "取色器",
+            "url": "./res/apps/colorPicker/colorPicker.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "music": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "音乐",
+            "icon": {
+                "type": "fa",
+                "content": "music",
+                "bg": "#388fff"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "5.8.8",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "音乐",
+            "url": "//seikka.52msr.cn/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "browser": {
+            "addressBar": true,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "浏览器",
+            "icon": {
+                "type": "fa",
+                "content": "internet-explorer",
+                "bg": "#3a55c2"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "浏览器",
+            "url": "./res/apps/browser/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "se-store": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "shopping-bag",
+                "bg": "#b36aba"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Se Store",
+            "url": "./res/apps/app-store/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "login": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "登录SeOS",
+            "icon": {
+                "type": "fa",
+                "content": "cloud",
+                "bg": "#000"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "2.3.3",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "登录SeOS",
+            "url": "//os.52msr.cn/index.html",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-home": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "SeOS官方网站",
+            "icon": {
+                "type": "fa",
+                "content": "scribd",
+                "bg": "#6b96cf"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "SeOS 官网",
+            "url": "https://seikka.52msr.cn",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "server": {
+            "addressBar": false,
+            "autoRun": 1,
+            "background": false,
+            "badge": 0,
+            "desc": "SeOS 后台服务",
+            "icon": {
+                "type": "fa",
+                "content": "scribd",
+                "bg": "#6b96cf"
+            },
+            "openMode": "min",
+            "plugin": true,
+            "position": {
+                "autoOffset": false,
+                "left": false,
+                "top": false,
+                "x": "4",
+                "y": "4"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Seikka",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "80",
+                "width": "160"
+            },
+            "title": "SeOS 后台服务",
+            "url": "https://server.ylui.yuri2.cn",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "documents": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "官方在线文档",
+            "icon": {
+                "type": "fa",
+                "content": "book",
+                "bg": "#d9ab4a"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Seikka",
+            "resizable": false,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "在线文档",
+            "url": "https://github.com:/seikka/SeOS/tree/master/documents",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "github": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "github",
+            "icon": {
+                "type": "fa",
+                "content": "github",
+                "bg": "#292929"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "github",
+            "resizable": false,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "github",
+            "url": "https://github.com",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "fa": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "flag",
+                "bg": "rgb(53,154,238)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Font Awesome",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Font Awesome",
+            "url": "https://fontawesome.com:/cheatsheet",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "image-host": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "image",
+                "bg": "#72b076"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "imgchr.com",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "路过图床",
+            "url": "https://imgchr.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "bangdream": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "BanGDream",
+            "icon": {
+                "type": "img",
+                "content": "/res/img/icon/bangdream.jpg",
+                "bg": "fff0"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "BanGD!",
+            "url": "//bd.52msr.cn",
+            "customTile": "",
+            "urlRandomToken": true
+        }
+    },
+    "shortcuts": [
+        {
+            "app": "browser",
+            "title": "浏览器",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "music",
+            "title": "音乐",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "se-store",
+            "title": "Se Store",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "login",
+            "title": "登录SeOS",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-home",
+            "title": "SeOS 官网",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "title": "代码库",
+            "children": [
+                {
+                    "app": "documents",
+                    "title": "在线文档",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "github",
+                    "title": "github",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        },
+        {
+            "app": "bangdream",
+            "title": "BanGD!",
+            "params": {},
+            "hash": ""
+        }
+    ],
+    "tiles": [
+        {
+            "title": "系统",
+            "data": [
+                {
+                    "x": 0,
+                    "y": 10,
+                    "w": 2,
+                    "h": 2,
+                    "app": "se-store",
+                    "title": "Se Store",
+                    "i": "91",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 0,
+                    "y": 8,
+                    "w": 4,
+                    "h": 2,
+                    "app": "system",
+                    "title": "系统设置",
+                    "i": "110",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 4,
+                    "y": 8,
+                    "w": 2,
+                    "h": 2,
+                    "app": "browser",
+                    "title": "浏览器",
+                    "i": "146",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "w": 6,
+                    "h": 4,
+                    "app": "login",
+                    "title": "登录SeOS",
+                    "i": "188",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 6,
+                    "h": 4,
+                    "app": "app-home",
+                    "title": "SeOS 官网",
+                    "i": "147",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 2,
+                    "y": 10,
+                    "w": 4,
+                    "h": 2,
+                    "app": "documents",
+                    "title": "在线文档",
+                    "i": "158",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        }
+    ],
+    "startMenu": {
+        "width": 620,
+        "height": 494,
+        "sidebar": [
+            {
+                "app": "browser",
+                "title": "浏览器",
+                "params": {},
+                "hash": ""
+            },
+            {
+                "app": "system",
+                "title": "系统设置"
+            }
+        ],
+        "menu": {
+            "itemPushed-85": {
+                "app": "browser",
+                "title": "浏览器",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-89": {
+                "app": "app-home",
+                "title": "SeOS 官网",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-96": {
+                "app": "system",
+                "title": "系统设置",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-88": {
+                "app": "se-store",
+                "title": "Se Store",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-153": {
+                "app": "documents",
+                "title": "在线文档",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-157": {
+                "app": "github",
+                "title": "github",
+                "params": {},
+                "hash": ""
+            }
+        }
+    }
+}
