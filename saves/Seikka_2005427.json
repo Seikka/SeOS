@@ -245,7 +245,7 @@
                 "width": "x*0.8"
             },
             "title": "Se Store",
-            "url": "https://appstore.ylui.yuri2.cn",
+            "url": "./res/apps/app-store/index.html",
             "customTile": "",
             "urlRandomToken": true
         },
